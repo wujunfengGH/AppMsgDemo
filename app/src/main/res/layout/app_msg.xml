@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:minHeight="48dp"
+              android:orientation="vertical" >
+
+    <TextView
+        android:id="@android:id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/custom"
+        android:layout_marginTop="50dp"
+        android:gravity="left"
+        android:padding="8dp"
+        android:textColor="#666666"
+        android:textIsSelectable="false"
+        android:textSize="14sp"
+        />
+
+</LinearLayout>
